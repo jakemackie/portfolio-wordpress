@@ -1,0 +1,18 @@
+{
+    "$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/block.json",
+    "apiVersion": 3,
+    "name": "jakemackie/card",
+    "title": "Card",
+    "category": "design",
+    "icon": "index-card",
+    "description": "A custom card block.",
+    "attributes": {
+        "title": {
+            "type": "string",
+            "default": "Card Title"
+        }
+    },
+    "textdomain": "jakemackie",
+    "editorScript": "file:./index.js",
+    "render": "file:./render.php"
+}

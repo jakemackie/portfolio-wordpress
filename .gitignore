@@ -1,0 +1,19 @@
+# Ignore everything
+/*
+
+# Except these folders
+!wp-content/
+!docker-compose.yml
+!.github/
+!.gitignore
+!.vscode/
+
+# Inside wp-content, ignore everything except your theme
+wp-content/*
+!wp-content/themes/
+wp-content/themes/*
+!wp-content/themes/wordpress/
+
+# Ignore compiled assets and dependencies
+wp-content/themes/wordpress/node_modules/
+wp-content/themes/wordpress/build/
