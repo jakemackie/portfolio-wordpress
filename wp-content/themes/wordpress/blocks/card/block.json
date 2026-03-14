@@ -6,10 +6,24 @@
     "category": "design",
     "icon": "index-card",
     "description": "A custom card block.",
+    "supports": {
+        "color": {
+            "background": true,
+            "text": true
+        }
+    },
     "attributes": {
         "title": {
             "type": "string",
             "default": "Card Title"
+        },
+        "backgroundColor": {
+            "type": "string",
+            "default": "black"
+        },
+        "textColor": {
+            "type": "string",
+            "default": "white"
         }
     },
     "textdomain": "jakemackie",

@@ -6,11 +6,32 @@
         "color": {
             "palette": [
                 {
-                    "slug": "primary",
+                    "slug": "black",
                     "color": "#000000",
-                    "name": "Primary"
+                    "name": "Black"
+                },
+                {
+                    "slug": "white",
+                    "color": "#FFFFFF",
+                    "name": "White"
                 }
             ]
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "'Inter', sans-serif",
+                    "slug": "inter",
+                    "name": "Inter"
+                }
+            ]
+        }
+    },
+    "styles": {
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--inter)",
+            "fontSize": "16px",
+            "lineHeight": "1.6"
         }
     }
 }
