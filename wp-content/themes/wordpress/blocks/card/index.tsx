@@ -18,13 +18,11 @@ registerBlockType('jakemackie/card', {
         attributes: { title: string };
         setAttributes: (attrs: Partial<{ title: string }>) => void;
     }) => {
-        const blockProps = useBlockProps({
-            style: { border: '1px solid #ccc', padding: '20px', borderRadius: '8px' }
-        });
+        // By leaving this empty, WordPress handles the styles via theme.json
+        const blockProps = useBlockProps();
 
         return (
             <div { ...blockProps }>
-                {/* The Sidebar Options */}
                 <InspectorControls>
                     <PanelBody title="Card Settings">
                         <TextControl
@@ -35,11 +33,9 @@ registerBlockType('jakemackie/card', {
                     </PanelBody>
                 </InspectorControls>
 
-                {/* What you see in the editor canvas */}
                 <h3>{ attributes.title }</h3>
             </div>
         );
     },
-    // We leave save null because we are using PHP to render (Dynamic Block)
     save: () => null,
 });

@@ -7,6 +7,10 @@
     "icon": "index-card",
     "description": "A custom card block.",
     "supports": {
+        "spacing": {
+            "padding": true,
+            "margin": true
+        },
         "color": {
             "background": true,
             "text": true

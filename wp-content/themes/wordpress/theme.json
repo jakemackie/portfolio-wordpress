@@ -65,6 +65,24 @@
                 "left": "1.5rem",
                 "right": "1.5rem"
             }
+        },
+        "blocks": {
+            "jakemackie/card": {
+                "spacing": {
+                    "padding": {
+                        "top": "20px",
+                        "right": "20px",
+                        "bottom": "20px",
+                        "left": "20px"
+                    }
+                },
+                "border": {
+                    "width": "1px",
+                    "style": "solid",
+                    "color": "#ccc",
+                    "radius": "8px"
+                }
+            }
         }
     }
 }
