@@ -29,7 +29,7 @@ jobs:
       - name: Deploy via Rsync
         uses: Burnett01/rsync-deployments@v8
         with:
-          switches: -avzr --delete --exclude='node_modules' --exclude='package.json' --exclude='package-lock.json' --exclude='tsconfig.json' --exclude='blocks/src'
+          switches: -rvz --no-perms --no-owner --no-group --delete --exclude='node_modules' --exclude='package.json' --exclude='package-lock.json' --exclude='tsconfig.json' --exclude='blocks/src'
           path: ./wp-content/themes/wordpress/
           remote_path: /var/www/html/wp-content/themes/wordpress/
           remote_host: ${{ secrets.HOST }}
