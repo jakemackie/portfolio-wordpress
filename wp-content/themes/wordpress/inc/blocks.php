@@ -4,7 +4,7 @@
  * Register custom blocks from the build directory.
  */
 function register_blocks(): void {
-    $build_dir = get_template_directory() . '/build';
+    $build_dir = get_template_directory() . '/blocks/build';
 
     if (! is_dir($build_dir)) {
         return;

@@ -8,13 +8,13 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "outDir": "build",
-    "rootDir": "blocks",
+    "outDir": "blocks/build",
+    "rootDir": "blocks/src",
     "types": [
       "@wordpress/blocks",
       "@wordpress/block-editor",
       "@wordpress/components"
     ]
   },
-  "include": ["blocks/**/*"]
+  "include": ["blocks/src/**/*"]
 }
