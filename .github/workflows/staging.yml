@@ -27,7 +27,7 @@ jobs:
           npm run build
 
       - name: Deploy via Rsync
-        uses: Burnett01/rsync-deployments@v7
+        uses: Burnett01/rsync-deployments@v8
         with:
           switches: -avzr --delete --exclude='node_modules' --exclude='package.json' --exclude='package-lock.json' --exclude='tsconfig.json' --exclude='blocks/src'
           path: ./wp-content/themes/wordpress/
