@@ -4,6 +4,9 @@
     "build": "wp-scripts build --webpack-src-dir=blocks"
   },
   "devDependencies": {
+    "@types/wordpress__block-editor": "^15.0.5",
+    "@types/wordpress__blocks": "^15.10.2",
+    "@types/wordpress__components": "^23.0.12",
     "@wordpress/scripts": "^31.6.0"
   }
 }

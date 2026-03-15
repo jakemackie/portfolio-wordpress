@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "target": "esnext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "build",
+    "rootDir": "blocks",
+    "types": [
+      "@wordpress/blocks",
+      "@wordpress/block-editor",
+      "@wordpress/components"
+    ]
+  },
+  "include": ["blocks/**/*"]
+}

@@ -3,7 +3,21 @@ import { useBlockProps, InspectorControls } from '@wordpress/block-editor';
 import { PanelBody, TextControl } from '@wordpress/components';
 
 registerBlockType('jakemackie/card', {
-    edit: ({ attributes, setAttributes }) => {
+    title: 'Card',
+    category: 'widgets',
+    attributes: {
+        title: {
+            type: 'string',
+            default: '',
+        },
+    },
+    edit: ({
+        attributes,
+        setAttributes,
+    }: {
+        attributes: { title: string };
+        setAttributes: (attrs: Partial<{ title: string }>) => void;
+    }) => {
         const blockProps = useBlockProps({
             style: { border: '1px solid #ccc', padding: '20px', borderRadius: '8px' }
         });
