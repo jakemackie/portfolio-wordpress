@@ -5,11 +5,11 @@
 /*
 
 # Except these folders
-!wp-content/
-!docker-compose.yml
 !.github/
+!docker/
+!wp-content/
 !.gitignore
-!.vscode/
+
 
 # Inside wp-content, ignore everything except your theme
 wp-content/*
@@ -25,4 +25,3 @@ wp-content/themes/wordpress/blocks/build/
 keys/
 .env.local
 *.sql
-!db.sh
