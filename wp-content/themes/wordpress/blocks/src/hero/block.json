@@ -1,11 +1,11 @@
 {
     "$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/block.json",
     "apiVersion": 3,
-    "name": "jakemackie/card",
-    "title": "Card",
+    "name": "jakemackie/hero",
+    "title": "Hero",
     "category": "design",
-    "icon": "index-card",
-    "description": "A custom card block.",
+    "icon": "columns",
+    "description": "A hero section with heading and image using core blocks.",
     "supports": {
         "spacing": {
             "padding": true,
@@ -14,20 +14,6 @@
         "color": {
             "background": true,
             "text": true
-        }
-    },
-    "attributes": {
-        "title": {
-            "type": "string",
-            "default": "Card Title"
-        },
-        "backgroundColor": {
-            "type": "string",
-            "default": "black"
-        },
-        "textColor": {
-            "type": "string",
-            "default": "white"
         }
     },
     "textdomain": "jakemackie",
