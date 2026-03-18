@@ -4,8 +4,8 @@
     "settings": {
         "appearanceTools": true,
         "layout": {
-            "contentSize": "1000px",
-            "wideSize": "1400px"
+            "contentSize": "1440px",
+            "wideSize": "1920px"
         },
         "color": {
             "palette": [
@@ -63,7 +63,6 @@
             "lineHeight": "1.6"
         },
         "spacing": {
-            "blockGap": "2rem",
             "padding": {
                 "top": "var(--wp--preset--spacing--50)",
                 "bottom": "var(--wp--preset--spacing--50)",
