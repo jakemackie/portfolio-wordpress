@@ -7,6 +7,7 @@
             "contentSize": "1440px",
             "wideSize": "1920px"
         },
+        "align": ["wide", "full"],
         "color": {
             "palette": [
                 {
@@ -61,32 +62,6 @@
             "fontFamily": "var(--wp--preset--font-family--inter)",
             "fontSize": "16px",
             "lineHeight": "1.6"
-        },
-        "spacing": {
-            "padding": {
-                "top": "var(--wp--preset--spacing--50)",
-                "bottom": "var(--wp--preset--spacing--50)",
-                "left": "1.5rem",
-                "right": "1.5rem"
-            }
-        },
-        "blocks": {
-            "jakemackie/card": {
-                "spacing": {
-                    "padding": {
-                        "top": "20px",
-                        "right": "20px",
-                        "bottom": "20px",
-                        "left": "20px"
-                    }
-                },
-                "border": {
-                    "width": "1px",
-                    "style": "solid",
-                    "color": "#ccc",
-                    "radius": "8px"
-                }
-            }
         }
     }
 }
