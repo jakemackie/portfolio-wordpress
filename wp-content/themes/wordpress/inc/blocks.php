@@ -29,3 +29,22 @@ function block_categories(array $categories): array {
     ]);
 }
 add_filter('block_categories_all', 'block_categories', 10, 1);
+
+/**
+ * Replace default button styles with custom styles.
+ */
+function replace_core_button_styles(): void {
+    unregister_block_style('core/button', 'fill');
+    unregister_block_style('core/button', 'outline');
+
+    register_block_style('core/button', [
+        'name'  => 'primary',
+        'label' => 'Primary'
+    ]);
+
+    register_block_style('core/button', [
+        'name'  => 'secondary',
+        'label' => 'Secondary'
+    ]);
+}
+add_action('after_setup_theme', 'replace_core_button_styles');
