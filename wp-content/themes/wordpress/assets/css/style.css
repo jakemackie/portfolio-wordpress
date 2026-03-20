@@ -1,6 +1,5 @@
-/* ---------- HEADING ---------- */
-.site-header {
-    margin-top: 1rem;
+html {
+    scroll-behavior: smooth;
 }
 
 /* ---------- BUTTONS ---------- */
