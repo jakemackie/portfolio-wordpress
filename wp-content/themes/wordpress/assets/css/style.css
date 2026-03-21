@@ -7,6 +7,11 @@ html {
 }
 
 /* ---------- BUTTONS ---------- */
+.wp-element-button:focus,
+.wp-element-button:focus-visible {
+    outline: 2px solid var(--wp--preset--color--primary-500);
+    outline-offset: 2px;
+}
 
 /* Invidiual Button Styles */
 .wp-block-button.is-style-primary > .wp-element-button {
@@ -61,6 +66,11 @@ html {
 }
 .wp-block-post-terms > a:hover {
     background-color: var(--wp--preset--color--tertiary-400);
+}
+.wp-block-post-terms > a:focus,
+.wp-block-post-terms > a:focus-visible {
+    outline: 2px solid var(--wp--preset--color--secondary-300);
+    outline-offset: 2px;
 }
 
 .wp-block-post-terms .wp-block-post-terms__separator {
