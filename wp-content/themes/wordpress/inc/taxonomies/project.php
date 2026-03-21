@@ -9,5 +9,6 @@ new CustomTaxonomy(
     postTypes: ['project'],
     args: [
         'menu_icon' => 'dashicons-portfolio',
+        'rewrite' => ['slug' => 'projects'],
     ]
 );
