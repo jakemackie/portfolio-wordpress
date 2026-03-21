@@ -23,11 +23,10 @@ html {
     color: var(--wp--preset--color--primary-100);
     font-weight: 400;
     letter-spacing: 0.05em;
-    border: 2px solid var(--wp--preset--color--neutral-300);
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 .wp-block-button.is-style-secondary > .wp-element-button:hover {
-    background-color: var(--wp--preset--color--neutral-400);
+    background-color: var(--wp--preset--color--neutral-200);
 }
 
 /* Fallback (Primary) */
@@ -48,18 +47,24 @@ html {
     background-color: var(--wp--preset--color--primary-500);
 }
 
-.wp-block-categories-list {
+.wp-block-post-terms {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem 1rem;
-    list-style: none;
-    padding: 0;
+    gap: 1rem;
 }
 
-.wp-block-categories-list > li > a {
+.wp-block-post-terms > a {
     background-color: var(--wp--preset--color--tertiary-500);
     padding-block: 0.5rem;
     padding-inline: 1rem;
+    transition: background-color 0.3s ease;
+}
+.wp-block-post-terms > a:hover {
+    background-color: var(--wp--preset--color--tertiary-400);
+}
+
+.wp-block-post-terms .wp-block-post-terms__separator {
+    display: none;
 }
 
 .wp-block-post-featured-image > a {
