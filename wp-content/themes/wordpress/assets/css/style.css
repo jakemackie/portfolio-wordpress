@@ -18,12 +18,12 @@ html {
     background-color: var(--wp--preset--color--primary-500);
 }
 
-
 .wp-block-button.is-style-secondary > .wp-element-button {
     background-color: var(--wp--preset--color--neutral-300);
     color: var(--wp--preset--color--primary-100);
     font-weight: 400;
     letter-spacing: 0.05em;
+    border: 2px solid var(--wp--preset--color--neutral-300);
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 .wp-block-button.is-style-secondary > .wp-element-button:hover {
