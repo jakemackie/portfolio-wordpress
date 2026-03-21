@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
+.is-layout-constrained {
+    padding-inline: 1rem;
+}
+
 /* ---------- BUTTONS ---------- */
 
 /* Invidiual Button Styles */
