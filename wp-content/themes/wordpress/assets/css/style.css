@@ -47,3 +47,25 @@ html {
 .wp-block-button.is-style-default > .wp-element-button:hover {
     background-color: var(--wp--preset--color--primary-500);
 }
+
+.wp-block-categories-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+.wp-block-categories-list > li > a {
+    background-color: var(--wp--preset--color--tertiary-500);
+    padding-block: 0.5rem;
+    padding-inline: 1rem;
+}
+
+.wp-block-post-featured-image > a {
+    padding: 0;
+}
+
+.wp-block-post-excerpt {
+    margin-top: 0.5rem;
+}

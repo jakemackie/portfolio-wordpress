@@ -8,7 +8,7 @@ new CustomPostType(
     plural: 'Projects',
     args: [
         'menu_icon' => 'dashicons-portfolio',
-        'supports'  => ['title', 'editor', 'thumbnail', 'custom-fields'],
+        'supports'  => ['title', 'editor', 'excerpt', 'thumbnail', 'custom-fields'],
     ]
 );
 
@@ -18,6 +18,6 @@ new CustomPostType(
     plural: 'Positions',
     args: [
         'menu_icon' => 'dashicons-businessman',
-        'supports'  => ['title', 'editor', 'thumbnail', 'custom-fields'],
+        'supports'  => ['title', 'editor', 'excerpt', 'thumbnail', 'custom-fields'],
     ]
 );

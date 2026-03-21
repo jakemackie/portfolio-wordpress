@@ -14,7 +14,7 @@
                 { "name": "Small", "slug": "small", "size": "0.875rem" },
                 { "name": "Medium", "slug": "medium", "size": "1rem" },
                 { "name": "Large", "slug": "large", "size": "1.5rem" },
-                { "name": "XL", "slug": "x-large", "size": "2rem" },
+                { "name": "XL", "slug": "x-large", "size": "clamp(1.75rem, 4vw, 2.5rem)" },
                 { "name": "XXL", "slug": "xx-large", "size": "clamp(2rem, 5vw, 3.5rem)" },
                 { "name": "Giant", "slug": "giant", "size": "clamp(3rem, 7vw, 5rem)" }
             ],
@@ -120,6 +120,24 @@
                     "fontSize": "var(--wp--preset--font-size--xx-large)",
                     "fontWeight": "500",
                     "lineHeight": "1.1"
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--x-large)",
+                    "fontWeight": "500",
+                    "lineHeight": "1.2"
+                }
+            },
+            "link": {
+                "color": {
+                    "text": "var(--wp--preset--color--secondary-300)"
+                },
+                "typography": {
+                    "textDecoration": "none"
+                },
+                "border": {
+                    "radius": "1rem"
                 }
             }
         },
